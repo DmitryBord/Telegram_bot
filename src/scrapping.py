@@ -10,7 +10,7 @@ def parse(deal_type, rooms, max_price) -> None:
     # print("Please, wait...")
     flats: List = []
     pages: int = 1
-    while pages <= 1:
+    while pages <= 5:
 
         url: str = (
             f"https://www.cian.ru/cat.php?deal_type={deal_type}&engine_version=2&maxprice={max_price}&is_by_homeowner=1&offer_type=flat&p={pages}&region=1&room1={rooms}&type=4")
