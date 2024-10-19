@@ -11,7 +11,7 @@ from gtts import gTTS
 from io import BytesIO
 from keyboard import markup_start, markup_talk, markup_find, btn_main_menu, markup_stop
 
-from src.scrapping import parse
+from scrapping import parse
 from dotenv import load_dotenv, find_dotenv
 
 load_dotenv(find_dotenv())
