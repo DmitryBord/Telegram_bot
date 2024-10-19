@@ -8,7 +8,7 @@ markup_start.row(btn_talk, btn_find)
 markup_start.row(KeyboardButton('Help 🛟'), KeyboardButton("Description"))
 
 # Кнопки для поиска
-markup_find = ReplyKeyboardMarkup(one_time_keyboard=True)
+markup_find = ReplyKeyboardMarkup(resize_keyboard=True, one_time_keyboard=True)
 btn_rent = KeyboardButton("Rent", callback_data="Rent")
 btn_sale = KeyboardButton("Sale", callback_data="Sale")
 markup_find.add(btn_rent, btn_sale)
